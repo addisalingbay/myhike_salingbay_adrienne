@@ -9,9 +9,15 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.8"
+    "bootstrap": "^5.3.8",
+    "firebase": "^13.0.0"
   },
   "devDependencies": {
     "vite": "^7.1.9"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "@firebase/util@1.15.3": true,
+    "protobufjs@7.6.6": true
   }
 }
